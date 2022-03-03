@@ -1,0 +1,22 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 3px solid gray;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+
+.reload{
+    background-color: rgb(64, 135, 197);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: helvetica;
+
+}
