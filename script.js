@@ -20,11 +20,12 @@ while(i<=grid){
         rowDiv.appendChild(newDiv)
         newDiv.setAttribute("class","div"+w)
         newDiv.addEventListener("mouseover",function(){
-            this.style.backgroundColor="black"
+            this.style.backgroundColor="rgba(30, 30, 26, 0.75)"
         })
         newDiv.style.width=1/grid*100+"%"
         newDiv.style.height=900/grid+"px"
-        // newDiv.style.border="3px solid red"
+        newDiv.style.border="1px solid rgba(150, 150, 150, 0.25)"
+        newDiv.style.borderRadius="7px"
         w++
     }
     i++
